@@ -1,0 +1,60 @@
+.container {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(255, 174, 0);
+    position: relative;
+}
+
+.Box {
+    width: 120px;
+    height: 120px;
+    color: rgb(236, 0, 0);
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.Static {
+    position: static;
+    /*By Defult the position is static */
+    background-color: aqua;
+    color: black;
+}
+
+.Rel {
+    position: relative;
+    /* it is always relative to its parants that is container */
+    top: 50px;
+    left: 100px;
+    background-color: rgb(242, 0, 255);
+    color: black;
+}
+
+.Abs {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* In absolute it consider the main html root element as a parant but when we declared the parent (container) as position relative then it will consider the (container) as a parent.  */
+    background-color: rgb(255, 0, 115);
+    color: black;
+}
+
+.Fix {
+    position: fixed;
+    background-color: rgb(81, 255, 0);
+    color: black;
+    top: 0%;
+    left: 50%;
+    z-index: 2;
+}
+
+.Sti {
+    position: sticky;
+    top:10px;
+    left:500px;
+    background-color: rgb(0, 26, 255);
+    color: black;
+    z-index: 1;
+}
+.blank{
+    height: 400vh;
+}

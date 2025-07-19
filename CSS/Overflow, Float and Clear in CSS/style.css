@@ -1,0 +1,52 @@
+.container{
+    height: 200px;
+    width: 400px;
+    text-align: justify;
+
+}
+.Visible{
+    width: 500px;
+    height: 600px;
+    overflow: visible;
+    /* By defualt the overflow is visible */
+     background-color: aqua;
+} 
+
+.hidden{
+    overflow: hidden;
+    /* By defualt the overflow is visible */
+    background-color: rgb(255, 0, 140);
+}
+.scroll{
+    overflow: scroll;
+    /* By defualt the overflow is visible */
+    background-color: rgb(0, 119, 255);
+}
+.auto{
+    overflow: auto;
+    /* By defualt the overflow is visible */
+    background-color: rgb(255, 204, 0);
+}
+img{
+    width: 200px;
+}
+
+.Floatleft>img{
+    float: left;
+}
+.Floatright>img{
+    float:right;
+}
+.Floatnone>img{
+    float: none;
+}
+.Floatinherit>img{
+    float: inherit;
+}
+
+.clearleft>p{
+    clear: left;
+}
+.clearright>p{
+    clear: right;
+}
