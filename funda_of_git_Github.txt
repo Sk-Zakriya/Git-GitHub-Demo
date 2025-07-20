@@ -33,3 +33,11 @@ git config --global color.ui auto
     git status
     git commit -m "Commit Message"
     git push
+
+    >>> Creating a new Branch 
+
+        git checkout -b "branchName"
+    
+    >>> For switch the Branch
+
+        git checkout "branchNamewhichneedsToBeOpened"
