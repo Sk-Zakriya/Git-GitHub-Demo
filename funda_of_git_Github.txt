@@ -1,1 +1,35 @@
 This is the demo.
+
+>> Git hub is a version control system
+
+    >> it is distridutted (on cloud)
+    >> collabration
+    >> tracking chaged
+    >> Recovery
+
+
+        >>>>>>>>>>>>>>>>>>> Connection To GitHub <<<<<<<<<<<<<<<<<<<
+
+>> for 1st time need to configer github in our system
+
+git config --global user.name "Sk-Zakriya"
+git config --global user.email "skzakriya282@gamil.com"
+
+git config --global color.ui auto
+
+
+>>>>> Mandotiry Cammands:
+
+    >> git init
+    >> git remote add origin https://github.com/Sk-Zakriya/Git-GitHub-Demo.git
+
+>>>> for commit <<<<<<<
+    
+    git pull origin main
+    git status
+
+    git add file name
+    or git add .
+    git status
+    git commit -m "Commit Message"
+    git push
