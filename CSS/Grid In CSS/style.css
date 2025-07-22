@@ -25,7 +25,7 @@
     /* justify-self: stretch;*/
     /* By defualt it's value is always stretch */
     /* align-self: center; */
-    grid-column: 3; 
+        grid-column: 4; 
     /* n+1 here n is how many column do you want to spane */
     /* we can also wright in an another way that is grid-column: 1/3; */
 }
