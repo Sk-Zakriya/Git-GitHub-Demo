@@ -1,0 +1,49 @@
+>>> using Flex property we can organized the layouts with respect to single dimention that is either row wise or coloum wise but in grid we can organized the layout with respect to two dimention that is row wise and coloum wise.
+
+
+                >>> Grid in css >>>
+
+>> The syntax of Grid is :
+
+    -> display: grid;
+
+>> After using display:grid; we can access the property of  grid
+
+    --> gap :
+
+            -> gap property is used to get the gap bettwen the row or coloum
+            
+            >> row-gap: is used to get the gap bettwen row
+            >> coloum-gap: is used to get the gap bettwen coloum
+    
+
+    --> grid-template-columns :
+
+           >> The grid-template-columns property specifies the number (and the widths) of columns in a grid layout.
+
+           >> The values are a space separated list, where each value specifies the size of the respective column.
+
+
+           >> CSS Syntax :
+                    
+                    >> grid-template-columns: none|auto|max-content
+                                              |min-content|minmax()|
+                                              length|percentage|
+                                              fit-content()|repeat()|
+                                              subgrid|initial|inherit;
+     --> grid-template-row :
+
+            >> The grid-template-row property specifies the number (and the widths) of rows in a grid layout.
+
+            >> The values are a space separated list, where each value specifies the size of the respective column.
+
+
+            >> CSS Syntax :
+                    
+                    >> grid-template-row: none|auto|max-content
+                                              |min-content|minmax()|
+                                              length|percentage|
+                                              fit-content()|repeat()|
+                                              subgrid|initial|inherit;
+            
+            >> fr is a unite that is stand for Fraction or fragment value (it is very good to use fr)
